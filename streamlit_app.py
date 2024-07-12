@@ -7,6 +7,10 @@ about_page = st.Page(
     icon=":material/account_circle:",
     default=True,
 )
+st.set_page_config(
+    page_title="Krishna's Portfolio",
+    layout="wide")
+
 project_1_page = st.Page(
     "views/projects.py",
     title="My projects",
@@ -28,7 +32,7 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/pic.png")
+st.logo("assets/menu.gif")
 st.sidebar.text("Made with ❤️ by Krishna ")
 
 
