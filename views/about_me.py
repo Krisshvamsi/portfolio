@@ -29,7 +29,7 @@ with col2:
             📄 Download Resume
         </a>
 """, unsafe_allow_html=True)
-        
+    st.write("\n")    
     if st.button("✉️ Contact Me"):
             show_contact_form()
 
