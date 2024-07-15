@@ -7,8 +7,6 @@ from pathlib import Path
 @st.experimental_dialog("Contact Me")
 def show_contact_form():
     contact_form()
-    
-
 
 
 # --- HERO SECTION ---
@@ -27,7 +25,7 @@ with col2:
 <a href="https://github.com/Krisshvamsi?tab=repositories/">
 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="GitHub Profile" style="width:42px;height:42px;">
 </a>""")
-    
+        
     if st.button("✉️ Contact Me"):
             show_contact_form()
 
