@@ -1,17 +1,21 @@
 import streamlit as st
 import streamlit.components.v1 as components
 from forms.contact import contact_form
+from pathlib import Path
+
 
 @st.experimental_dialog("Contact Me")
 def show_contact_form():
     contact_form()
     
 
+
+
 # --- HERO SECTION ---
 col1, col2 = st.columns([0.3,0.7], gap="small", vertical_alignment="center")
 with col1:
     st.image("./assets/6.png", width=250)
-    
+
 with col2:
 
     st.title("Hello👋...I'm Krishna Vamsi Rokkam", anchor=False)
@@ -23,8 +27,9 @@ with col2:
 <a href="https://github.com/Krisshvamsi?tab=repositories/">
 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="GitHub Profile" style="width:42px;height:42px;">
 </a>""")
+    
     if st.button("✉️ Contact Me"):
-        show_contact_form()
+            show_contact_form()
 
 st.write("\n")
 st.write("\n")
