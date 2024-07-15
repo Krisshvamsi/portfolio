@@ -19,7 +19,7 @@ with col2:
     st.title("Hello👋...I'm Krishna Vamsi Rokkam", anchor=False)
     st.write("**🧠 AI Innovator | 👨🏻‍💻 Data Scientist  | 🤖 ML Engineer**")
     
-    st.html("""<a href="https://www.linkedin.com/in/krishna-vamsi-rokkam/">
+    st.html("""<a href='https://www.linkedin.com/in/krishna-vamsi-rokkam/'>
 <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn Profile" style="width:42px;height:42px;">
 </a>  |  
 <a href="https://github.com/Krisshvamsi?tab=repositories/">
