@@ -24,10 +24,15 @@ with col2:
 </a>  |  
 <a href="https://github.com/Krisshvamsi?tab=repositories/">
 <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="GitHub Profile" style="width:42px;height:42px;">
-</a>""")
+</a>  | 
+<a href="./assets/CV.pdf" download="My_Resume.pdf" style="background-color: #2b8cbe; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+            📄 Download Resume
+        </a>
+""")
         
     if st.button("✉️ Contact Me"):
             show_contact_form()
+
 
 st.write("\n")
 st.write("\n")
