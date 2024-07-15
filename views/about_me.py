@@ -28,7 +28,7 @@ with col2:
 <a href="./assets/CV.pdf" download="My_Resume.pdf" style="background-color: #2b8cbe; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
             📄 Download Resume
         </a>
-""")
+""", unsafe_allow_html=True)
         
     if st.button("✉️ Contact Me"):
             show_contact_form()
