@@ -1,4 +1,5 @@
 .streamlit/secrets.toml
-views/.env
-data/*
+/.env
+/data
+*.txt
 **/__pycache__/
