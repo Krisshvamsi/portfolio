@@ -19,7 +19,7 @@ load_dotenv()
 
 model_type= 'gemini'
 
-st.header("Welcome to AMA about Krishna, developed using LangChain, LLMs and RAG", anchor=False)
+st.header("Welcome to AMA about Krishna, developed using LangChain, LLM and RAG (under construction 🚧)", anchor=False)
 st.write("""
         Please let me know your questions about Krishna
          """)
