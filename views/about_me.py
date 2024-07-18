@@ -31,7 +31,10 @@ with col2:
 """, unsafe_allow_html=True)
     st.write("\n")    
     if st.button("✉️ Contact Me"):
-            show_contact_form()
+        show_contact_form()
+    if st.button("🤖 AMA about Krishna"):
+        st.markdown(f'[Ask me Anything about Krishna]("\chatbot.py")', unsafe_allow_html=True)
+         
 
 
 st.write("\n")

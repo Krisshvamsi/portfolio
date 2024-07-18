@@ -1,41 +1,96 @@
-About Vicky:
-Vicky is a seasoned professional with expertise in AI, Data Science, Blockchain, and Cloud technologies. Holding an undergraduate degree in Computer Science from the University of Techville (2010), Vicky is committed to delivering innovative solutions and offers valuable resources at cognitiveclass.ai.
-
+About Krishna Vamsi Rokkam:
+Krishna is a professional with expertise in AI, Data Science, Blockchain, and Cloud technologies. Holding an graduate degree in Computer Science from the Concordia University (2024)
 Work Experience:
 Data Scientist at IBM (2015-2019); Software Developer at IBM (2010-2015)
 
 Career Goal:
-Vicky's career goal is to leverage their expertise in AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
+Krishna's career goal is to leverage their expertise in AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
 
-Skills: 
-AI, Data Science, Blockchain, Cloud, Python
+**Contact Information:**
+- Email: krishnavamsirokkam2001@gmail.com
+- Phone: +1 514-569-0752
+- LinkedIn: https://www.linkedin.com/in/krishna-vamsi-rokkam/
+- GitHub: https://github.com/Krisshvamsi?tab=repositories
 
-Certification:
-IBM Applied AI Professional Certificate (2023)
+## About Me
 
-Achievements:
-Spearheaded AI projects at IBM, resulting in a 30% increase in user engagement.
-Utilized IBM's watsonx service to help over 1000 companies from various domains automate their HR processes, from hiring to onboarding, contributing to a 100% positive feedback rate from companies.
+I am Krishna Vamsi Rokkam, a highly motivated and skilled data scientist and machine learning engineer. Currently, I am pursuing a Master of Applied Computer Science at Concordia University in Canada, with an expected graduation date of April 2024. My educational background includes a Bachelor of Technology in Information Technology from Sreenidhi Institute of Science and Technology in India, where I graduated in July 2022. I am proficient in multiple programming languages and frameworks, and I have extensive hands-on experience in various data science and machine learning projects.
 
-Contact:
-LinkedIn: https://www.linkedin.com/in/vicky-tck
-Phone: 123-456-789
-Location: Toronto, Ontario
+## Education
 
-Strengths and Advantages:
-Vicky's strengths lie in a profound passion for technology, innovative problem-solving, and client-centric solutions.
+- **Master of Applied Computer Science**, Concordia University, Canada (Sep 2022 - April 2024)
+- **Bachelor of Technology in Information Technology**, Sreenidhi Institute of Science and Technology, India (Aug 2018 - Jul 2022)
 
-Weaknesses and Disadvantages:
-Vicky's unwavering pursuit of excellence may occasionally lead to in-depth analysis, but it ensures the delivery of high-quality services.
+## Skills
 
-Interests and Hobbies:
-Vicky's passion for technology extends into leisure hours, where they delve into the cutting-edge realm of GenAI, continuously pushing the boundaries of what can be achieved in various projects. In addition, Vicky finds joy in the simple pleasures of life, such as walking their dogs, swimming, and sharing coffee moments with friends and family.
+I have developed a broad set of skills throughout my academic and professional career, including:
 
-Portfolio:
-Explore Vicky's portfolio of innovative projects at cognitiveclass.ai, showcasing expertise and tailored solutions. This website also serves as a showcase for some of Vicky's remarkable projects. Constructed using generative AI and Python, the website aims to inspire visitors with innovative ideas on seamlessly integrating generative AI into their own portfolio websites. Feel free to explore and ignite your creativity!
+- **Programming Languages**: Proficient in C, C#, Prolog, Python, R, Java, SQL, NoSQL, HTML, CSS, and JavaScript.
+- **Frameworks & Libraries**: Experienced with Git, Linux, PyTorch, Hugging Face, Transformers, LLM Fine Tuning, Keras, TensorFlow, NumPy, Pandas, Matplotlib, Tableau, Power BI, R-Studio, plotly, spaCy, Seaborn, nltk, Scikit-learn, Docker, Couchbase, Kubernetes, ElasticSearch, Flask, gRPC, Azure Open AI, AWS Sagemaker, SpeechBrain, and mlflow.
 
-Availability:
-Vicky is actively seeking new opportunities and is ready to start immediately.
+## Work Experience
 
-References:
-References are available upon request.
+### Microsoft + Nuance, Speech and Data Science Intern (May - Jul, 2023)
+At Microsoft + Nuance, I operated within the Professional Services Enterprise team, where I engineered a Python-based Regex Data Redaction Tool to safeguard sensitive PII and PCI data. I integrated gRPC calls for seamless functionality and rigorously tested each feature through comprehensive test cases in Python. Additionally, I actively contributed to the development of an NLU Data Augmentation Tool utilizing GPT-3/4 to generate training data, conducted benchmarking, optimized performance through hyperparameter tuning, and analyzed reports generated using the Nuance Mix tool.
+
+### Deloitte, Data Science Intern (Jan - Aug, 2022)
+During my tenure at Deloitte, I operated with the Deloitte Application Studio in the Audit & Assurance team. I acquired proficiency in AI development, specializing in Microsoft Azure services, including LUIS, QnA Maker, TTS, and Bot services. I developed a Conversational AI bot using LUIS and QnA Maker services, enhancing user interactions for audit-related tasks and user stories. Additionally, I implemented TTS audio capabilities for the bot using Azure AI speech services.
+
+### Technocolabs Softwares Inc, Data Science Intern (May - Aug, 2021)
+At Technocolabs Softwares Inc, I collaborated with the Product Development team on a Time Series Forecasting project. I specialized in data augmentation techniques to enhance the dataset for improved model performance and developed predictive models to forecast next-second price movements in the stock market. The models included Logistic Regression, SVM variants, and LSTM, and I led data visualization and storytelling efforts to effectively communicate project progress and insights to stakeholders.
+
+### SmartBridge Pvt Ltd, ML Engineer Intern (May - Aug, 2020)
+During my internship at SmartBridge Pvt Ltd, I operated with the Data and AI team, where I led the development of a CNN-based deep learning model. I handled data preprocessing and successfully deployed the model on the IBM cloud platform. I utilized advanced deep learning and optimization techniques, consistently surpassing project goals and earning recognition as the top intern team in RSIP-2020.
+
+## Publications
+
+- Co-authored a book chapter titled "Post-COVID Impact on Skin Allergies" in the book "Data Science Applications of Post-COVID-19 Psychological Disorders".
+- Authored a paper titled "An Intelligent TLDR Software for Summarization" published in IJRASET (DOI: 10.22214/ijraset.2022.44508).
+- Published a research paper titled "Predictive Analytics of BMI using CNN" in JMPAS (DOI: 10.22270/jmpas.V10I6.1656).
+
+## Projects
+
+### Transformer Based TTS System
+I implemented and optimized a Transformer based Text-to-Speech (TTS) model using the LJSpeech dataset and the SpeechBrain framework. By applying scaled positional encodings, teacher forcing, and weighted loss functions for Mel spectrogram predictions and stop token accuracy, I significantly enhanced speech synthesis capabilities. These enhancements led to a marked improvement in natural speech synthesis, reducing Mel Error to 8.27e-03 and Stop Error by over 10%. Additionally, I utilized dynamic batching for varied input lengths and applied the Noam Scheduler and Optimizer Initialization technique for dynamic learning rate adjustments and fine-tuning, achieving training speeds up to 3.5 times faster than Tacotron2.
+
+### Dialogue Summarization: Fine Tuning LLM using Prompt Engineering and PEFT
+In this project, I explored the FLAN-T5 model from Hugging Face to summarize dialogue. I employed prompt engineering to refine the quality of the summaries and experimented with zero-shot/few-shot inference and prompt formats to boost the model’s in-context learning and performance. By fine-tuning the model using the PEFT method—Low Rank Adaptation, I achieved a substantial reduction in model size by over 95% while maintaining competitive performance metrics, evidenced by a 17.47% and 8.73% improvement in ROUGE-1 and ROUGE-2 scores over human baseline summaries.
+
+### Automated Retail Product Classification using CNN
+I implemented Convolutional Neural Network (CNN) models using ResNet-18, GoogleNet, and AlexNet on three different datasets for classifying grocery products. I addressed challenges like imbalanced data and vanishing gradients and conducted hyperparameter tuning using grid search to ensure optimal model configurations for superior performance. By fine-tuning models using transfer learning on the weights of the best-performing model (ResNet-18), I achieved high performance and performed bias analysis to understand the nuances in different models.
+
+### Multi-task Modeling on Handwritten Digits using Keras
+In this project, I performed simultaneous tasks on grayscale digits: predicting digit value and color. I designed a data generator function that generates red and green color images using the grayscale MNIST images dataset from Keras. I developed a ResNet-style architecture with skip connections for a multi-tasking neural network model, achieving a remarkable 98% accuracy for digit and color recognition using interconnected neural networks.
+
+### Modeling Wine Quality using Ensemble Modeling Approach
+I employed ensemble modeling techniques on a wine dataset to predict wine quality scores based on chemical properties and expert wine taster evaluations. I utilized bagging techniques to build predictive models, including Random Forest, Gradient Boost, Ada Boost, and XG Boost. With the XG Boost algorithm, I achieved superior prediction accuracy of 89%, contributing to enhanced wine quality assessment and analysis.
+
+### Skin Disease Identification using Image Analysis
+I developed a CNN model with OpenCV integration for streamlined image analysis, enhancing model generalization by innovating a custom data preprocessing pipeline in PyTorch. I employed Max-Pooling, Flatten, and Conv2D neural network layers for robust real-time skin disease detection. The model was deployed via Flask, creating an efficient and user-friendly application for skin disease identification.
+
+## Certifications
+
+- Oracle Cloud Infrastructure Generative AI Professional certification – Oracle Cloud
+- Machine Learning certification - Stanford University
+- The Data Scientist toolbox - John Hopkins University
+- AWS Academy- Cloud Foundations course - Amazon
+- Programming Data Structures and Algorithms using Python - IIT Madras
+- Facial Expression Recognition using Keras - Coursera
+- Generative AI with LLMs - Coursera
+
+## Achievements
+
+- Awarded the Full-Time Post Matric Scholarship from the State Government of Telangana for the entire bachelor’s degree.
+- Won the Silver Award at Ennovate - The International Innovation Show, Poland, 2021.
+- Achieved ELITE grade in 'Data Structures and Algorithms using Python' course from IIT Madras.
+- Earned a Gold Badge in Python Module Assessment from HackerRank.
+- Received the AWS Academy Graduate Badge for completing the AWS Academy Cloud Foundations course.
+- Secured a Bronze in the Global Assessment of Information Technology, 2021.
+
+## Extra-Curricular Activities
+
+### Volunteer Team Leader, ConUHacks VIII, Concordia University (Jan 2024)
+As a volunteer team leader at ConUHacks VIII, Quebec’s largest hackathon hosted by Concordia University, I effectively coordinated and managed activities, showcasing strong leadership, task assignment, and communication skills. I contributed significantly to the overall success of the event by fostering a collaborative team environment, addressing issues promptly, and ensuring a positive experience for participants, sponsors, and executives.
+
+### The Techvision Club (Aug 2020 – Sep 2022)
+Serving as a Board Member and Executive Board Member of The Techvision Club, I led the Focus on Research (FOR) initiative, mentoring students in research projects and facilitating research publications. Additionally, I conducted hands-on training sessions in C, Python, and R for over 120 students as a programming tutor. As an event organizer, I spearheaded the development of the club's inaugural website and organized technical events, including workshops, hackathons, and quizzes. I also hosted webinars
