@@ -17,7 +17,7 @@ if "history" not in st.session_state:
 
 load_dotenv()
 
-model_type= 'ollama'
+model_type= 'gemini'
 
 st.header("Welcome to AMA about Krishna, developed using LangChain, LLMs and RAG", anchor=False)
 st.write("""
