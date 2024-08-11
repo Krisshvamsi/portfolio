@@ -116,3 +116,46 @@ st.write("""
 - **Predictive Analytics of BMI using CNN** – JMPAS ([DOI: 10.22270/jmpas.V10I6.1656](https://doi.org/10.22270/jmpas.V10I6.1656))
 """)
     
+
+# Certifications
+st.subheader("Certifications", anchor=False)
+st.write("""
+- **Oracle Cloud Infrastructure Generative AI Professional certification** – Oracle Cloud
+- **Machine Learning certification** – Stanford University
+- **AWS Academy - Cloud Foundations course** – Amazon
+- **Programming Data Structures and Algorithms using Python** – IIT Madras
+""")
+
+# Achievements
+st.subheader("Achievements", anchor=False)
+st.write("""
+- Full-Time Post Matric Scholarship from the State Government of Telangana for the entire bachelor’s degree
+- Silver Award at Ennovate - The International Innovation Show, Poland, 2021
+- ELITE grade in 'Data Structures and Algorithms using Python' course from IIT Madras
+- Bronze Award in Global Assessment of Information Technology, 2021
+""")
+
+# Extra-Curricular Activities
+st.subheader("Extra-Curricular Activities", anchor=False)
+
+# Volunteer Team Leader
+with st.expander("**Volunteer Team Leader, ConUHacks VIII, Concordia University**,  (Jan 2024)"):
+    st.write("""
+- Led a team of volunteers, coordinating activities at Quebec’s largest hackathon. Demonstrated strong leadership, task assignment, and communication skills.
+- Fostered a collaborative environment, addressed issues promptly, and ensured a positive experience for participants, sponsors, and executives, contributing to the event's success.
+""")
+
+# The Techvision Club
+with st.expander("**The Techvision Club**,  (Aug 2020 – Sep 2022)"):
+    st.write("""
+- **Board Member & Executive**: Led the Focus on Research (FOR) initiative, mentoring students in research projects and facilitating publications.
+- **Programming Tutor**: Conducted hands-on training sessions in C, Python, and R for over 120 students.
+- **Event Organizer**: Developed the club's inaugural website and organized technical events including workshops, hackathons, and quizzes. Hosted webinars on AI, Data Science, and Web Development with industry experts.
+""")
+
+# AIESEC in Hyderabad
+with st.expander("**AIESEC in Hyderabad**,  (Aug 2020 – Jan 2021)"):
+    st.write("""
+- Contributed to the Outgoing Global Talent Department, specializing in content creation, market research, and partnership development for international internship exchanges.
+- Collaborated with a global network of young leaders to promote cross-cultural understanding and facilitate international internships.
+""")
