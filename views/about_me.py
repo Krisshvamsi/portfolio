@@ -50,10 +50,27 @@ with col2:
 
 st.write("\n")
 st.write("\n")
+st.write("\n")
+
+# About Me Section
+st.subheader("About Me 🌟", anchor=False)
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
+st.markdown("""
+    <span style="color:#007acc;">In the dynamic world of <strong>AI</strong> and <strong>Data Science</strong></span>, I am a <strong>dot connector</strong>—passionate about unraveling complex challenges and crafting innovative solutions. My journey is driven by a deep curiosity to see beyond the obvious, connecting the dots between disparate data points 🔗 and transforming them into groundbreaking insights 💡.
+
+    Having recently completed my <strong>Master’s degree in Applied Computer Science</strong> 🎓 from Concordia University in Montreal, I’ve cultivated a rich skill set that enables me to bridge gaps with technology. From engineering sophisticated <span style="color:#ff5722;"><strong>machine learning models</strong></span> 🤖 to deploying <span style="color:#ff5722;"><strong>AI solutions</strong></span> at scale 🌐, I leverage my expertise to make sense of the seemingly chaotic and turn it into clarity.
+
+    My technical prowess spans across <span style="color:#4caf50;"><strong>Python software engineering</strong></span> 🐍, deep learning (including <strong>CNNs</strong> and <strong>Transformers</strong>) 🧠, <span style="color:#4caf50;"><strong>time series forecasting</strong></span> 📈, and <span style="color:#4caf50;"><strong>data augmentation</strong></span> 🔧. I've designed and deployed <span style="color:#2196f3;"><strong>CI/CD pipelines</strong></span> 🚀, orchestrated containers with <span style="color:#2196f3;"><strong>Docker</strong></span> 🐳 and <span style="color:#2196f3;"><strong>Kubernetes</strong></span> ⚙️, and built scalable <span style="color:#2196f3;"><strong>AI models</strong></span> using frameworks like <strong>PyTorch</strong>, <strong>TensorFlow</strong>, and <strong>Flask</strong>. My experience with <span style="color:#ff9800;"><strong>Power BI</strong></span> 📊 ensures that data-driven decisions are backed by clear, actionable insights.
+
+    At the heart of my work is a relentless pursuit of <span style="color:#e91e63;"><strong>innovation</strong></span> 🚀, whether it’s enhancing <span style="color:#e91e63;"><strong>speech synthesis models</strong></span> 🗣️, developing <span style="color:#e91e63;"><strong>predictive tools</strong></span> 🔍, or fine-tuning <span style="color:#e91e63;"><strong>large language models</strong></span> for dialogue summarization 📝. I believe that the best solutions are those that connect ideas across domains, and I am always eager to engage with others, share my knowledge 📚, and explore new opportunities that push the boundaries of <strong>AI</strong> and <strong>Data Science</strong>.
+
+    If you’re looking for someone who thrives on solving complex problems 🧩 and connecting the dots in creative ways 🎨, let’s connect. Together, we can turn challenges into opportunities and drive forward the future of technology 🚀.
+""", unsafe_allow_html=True)
 
 # Education
-
-st.subheader("Education", anchor=False)
+st.subheader("Education 📚", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
@@ -63,7 +80,7 @@ st.write("""
          """)
 
 # Skills
-st.subheader("Skills", anchor=False)
+st.subheader("Skills ⚙️🔧", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
@@ -77,7 +94,7 @@ st.write("""
 
 
 # Work Experience
-st.subheader("Work Experience", anchor=False)
+st.subheader("Work Experience 💼", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
@@ -118,7 +135,7 @@ with st.expander("**SmartBridge Pvt Ltd, ML Engineer Intern**, Hyderabad, India 
     
 
 # Publications
-st.subheader("Publications", anchor=False)
+st.subheader("Publications 📰", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
@@ -130,7 +147,7 @@ st.write("""
     
 
 # Certifications
-st.subheader("Certifications", anchor=False)
+st.subheader("Certifications 📜", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
@@ -143,7 +160,7 @@ st.write("""
 
 
 # Achievements
-st.subheader("Achievements", anchor=False)
+st.subheader("Achievements 🏅", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
@@ -156,7 +173,7 @@ st.write("""
 
 
 # Extra-Curricular Activities
-st.subheader("Activities and Societies", anchor=False)
+st.subheader("Activities and Societies 🌐🤝", anchor=False)
 st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)

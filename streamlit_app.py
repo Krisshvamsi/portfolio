@@ -43,7 +43,7 @@ pg = st.navigation(
 
 # --- SHARED ON ALL PAGES ---
 st.logo("assets/menu.gif")
-st.sidebar.text("Made with ❤️ by Krishna ")
+st.sidebar.text("Made with ❤️ by Krishna")
 
 
 # --- RUN NAVIGATION ---
