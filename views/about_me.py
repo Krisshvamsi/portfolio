@@ -38,7 +38,7 @@ with col2:
             st.download_button(
                 label="📄 Download Resume",
                 data=pdf_file,
-                file_name="CV.pdf",
+                file_name="Krishna's Resume.pdf",
                 mime="application/pdf"
             )
 
