@@ -54,6 +54,9 @@ st.write("\n")
 # Education
 
 st.subheader("Education", anchor=False)
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
 st.write("""
          - **Master of Applied Computer Science - Concordia University, Canada** (September 2022 - April 2024)
          - **B. Tech in Information Technology - Sreenidhi Institute of Science and Technology, India** (August 2018 - July 2022)
@@ -61,6 +64,9 @@ st.write("""
 
 # Skills
 st.subheader("Skills", anchor=False)
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
 st.write("""
 - ***Programming languages***: C, C#, Python, R, Java
 - ***Machine Learning***: PyTorch, Hugging Face, Deep learning, Transformers, LLM Fine Tuning, Keras, TensorFlow, Scikit-learn, SpeechBrain, MLFlow, OpenCV, CUDA
@@ -72,7 +78,9 @@ st.write("""
 
 # Work Experience
 st.subheader("Work Experience", anchor=False)
-
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
 # Microsoft + Nuance
 with st.expander("**Microsoft, Data Science Intern – Speech**, Montreal, Canada  (May - July, 2023)"):
     st.write("""
@@ -108,8 +116,12 @@ with st.expander("**SmartBridge Pvt Ltd, ML Engineer Intern**, Hyderabad, India 
 - Leveraged transfer learning by fine-tuning the ResNet-50 model, reducing training time by 22% and improving accuracy by 4%. Deployed the model using Flask, with RESTful APIs for real-time image analysis and asynchronous processing to manage high user traffic, resulting in a scalable and responsive web application.
              """)
     
+
 # Publications
 st.subheader("Publications", anchor=False)
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
 st.write("""
 - **Co-authored book chapter**: *Post-COVID Impact on Skin Allergies* (Book Title: *[Data Science Applications of Post-COVID-19 Psychological Disorders](https://novapublishers.com/shop/data-science-applications-of-post-covid-19-psychological-disorders/)*)
 - **An Intelligent TLDR Software for Summarization** – IJRASET ([DOI: 10.22214/ijraset.2022.44508](https://doi.org/10.22214/ijraset.2022.44508))
@@ -119,6 +131,9 @@ st.write("""
 
 # Certifications
 st.subheader("Certifications", anchor=False)
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
 st.write("""
 - **Oracle Cloud Infrastructure Generative AI Professional certification** – Oracle Cloud
 - **Machine Learning certification** – Stanford University
@@ -126,8 +141,12 @@ st.write("""
 - **Programming Data Structures and Algorithms using Python** – IIT Madras
 """)
 
+
 # Achievements
 st.subheader("Achievements", anchor=False)
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
 st.write("""
 - Full-Time Post Matric Scholarship from the State Government of Telangana for the entire bachelor’s degree
 - Silver Award at Ennovate - The International Innovation Show, Poland, 2021
@@ -135,9 +154,12 @@ st.write("""
 - Bronze Award in Global Assessment of Information Technology, 2021
 """)
 
+
 # Extra-Curricular Activities
 st.subheader("Activities and Societies", anchor=False)
-
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
 # Volunteer Team Leader
 with st.expander("**Volunteer Team Leader, ConUHacks VIII, Concordia University**,  (Jan 2024)"):
     st.write("""
