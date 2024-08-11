@@ -76,8 +76,8 @@ st.markdown("""
     <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
 """, unsafe_allow_html=True)
 st.write("""
-         - **Master of Applied Computer Science - Concordia University, Canada** (September 2022 - April 2024)
-         - **B. Tech in Information Technology - Sreenidhi Institute of Science and Technology, India** (August 2018 - July 2022)
+         - **Master of Applied Computer Science - Concordia University, Montreal, Canada** (September 2022 - April 2024)
+         - **B. Tech in Information Technology - Sreenidhi Institute of Science and Technology, Hyderabad, India** (August 2018 - July 2022)
          """)
 
 # Skills
