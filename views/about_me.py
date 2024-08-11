@@ -108,3 +108,11 @@ with st.expander("**SmartBridge Pvt Ltd, ML Engineer Intern**, Hyderabad, India 
 - Leveraged transfer learning by fine-tuning the ResNet-50 model, reducing training time by 22% and improving accuracy by 4%. Deployed the model using Flask, with RESTful APIs for real-time image analysis and asynchronous processing to manage high user traffic, resulting in a scalable and responsive web application.
              """)
     
+# Publications
+st.subheader("Publications", anchor=False)
+st.write("""
+- **Co-authored book chapter**: *Post-COVID Impact on Skin Allergies* (Book Title: *[Data Science Applications of Post-COVID-19 Psychological Disorders](https://novapublishers.com/shop/data-science-applications-of-post-covid-19-psychological-disorders/)*)
+- **An Intelligent TLDR Software for Summarization** – IJRASET ([DOI: 10.22214/ijraset.2022.44508](https://doi.org/10.22214/ijraset.2022.44508))
+- **Predictive Analytics of BMI using CNN** – JMPAS ([DOI: 10.22270/jmpas.V10I6.1656](https://doi.org/10.22270/jmpas.V10I6.1656))
+""")
+    
