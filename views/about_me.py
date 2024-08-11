@@ -136,7 +136,7 @@ st.write("""
 """)
 
 # Extra-Curricular Activities
-st.subheader("Extra-Curricular Activities", anchor=False)
+st.subheader("Activities and Societies", anchor=False)
 
 # Volunteer Team Leader
 with st.expander("**Volunteer Team Leader, ConUHacks VIII, Concordia University**,  (Jan 2024)"):
