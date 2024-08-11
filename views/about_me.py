@@ -23,7 +23,7 @@ with col2:
     st.markdown("""
         <a href='https://www.linkedin.com/in/krishna-vamsi-rokkam/'>
         <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn Profile" style="width:42px;height:42px;">
-        </a>  
+        </a>  |
         <a href="https://github.com/Krisshvamsi?tab=repositories/">
         <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="GitHub Profile" style="width:42px;height:42px;">
         </a>
