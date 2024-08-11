@@ -11,27 +11,42 @@ def show_contact_form():
 
 
 # --- HERO SECTION ---
-col1, col2 = st.columns([0.3,0.7], gap="small", vertical_alignment="center")
+col1, col2 = st.columns([0.3, 0.7], gap="small", vertical_alignment="center")
 with col1:
     st.image("./assets/6.png", width=250)
 
 with col2:
     st.title("Hello👋...I'm Krishna Vamsi Rokkam", anchor=False)
     st.write("**🧠 AI Innovator | 👨🏻‍💻 Data Scientist  | 🤖 ML Engineer**")
-    st.markdown("""<a href='https://www.linkedin.com/in/krishna-vamsi-rokkam/'>
-<img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn Profile" style="width:42px;height:42px;">
-</a>  |  
-<a href="https://github.com/Krisshvamsi?tab=repositories/">
-<img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="GitHub Profile" style="width:42px;height:42px;">
-</a>  | 
-<a href="./assets/CV.pdf" download="My_Resume.pdf" target="_blank" class="download-button" style="background-color: #2b8cbe; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
-            📄 Download Resume
-        </a>
-""", unsafe_allow_html=True)
-    st.write("\n")    
-    if st.button("✉️ Contact Me"):
-        show_contact_form()         
 
+    # Display social media icons
+    st.markdown("""
+        <a href='https://www.linkedin.com/in/krishna-vamsi-rokkam/'>
+        <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn Profile" style="width:42px;height:42px;">
+        </a>  
+        <a href="https://github.com/Krisshvamsi?tab=repositories/">
+        <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="GitHub Profile" style="width:42px;height:42px;">
+        </a>
+    """, unsafe_allow_html=True)
+    st.write("\n")
+    # Create columns for buttons within the second column
+    button_col1, button_col2 = st.columns([0.2  , 0.8], gap="small")
+
+    # Resume download button in the first button column
+    with button_col1:
+        with open("assets/CV_Krishna.pdf", "rb") as pdf_file:
+            st.download_button(
+                label="📄 Download Resume",
+                data=pdf_file,
+                file_name="CV.pdf",
+                mime="application/pdf"
+            )
+
+    # Contact Me button in the second button column
+    with button_col2:
+        if st.button("✉️ Contact Me"):
+            # Define the action for the "Contact Me" button
+            show_contact_form()  # Define this function to show the contact form
 
 st.write("\n")
 st.write("\n")
