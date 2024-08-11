@@ -22,6 +22,13 @@ project_2_page = st.Page(
     icon=":material/smart_toy:",
 )
 
+project_3_page = st.Page(
+    "views/rag.py",
+    title="Retrieval Augmented Generation Engine",
+    icon=":material/smart_toy:",
+)
+
+
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
