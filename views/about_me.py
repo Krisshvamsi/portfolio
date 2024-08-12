@@ -19,7 +19,7 @@ with col2:
     st.title("Hello👋...I'm Krishna Vamsi Rokkam", anchor=False)
     st.write("**🧠 AI Innovator | 👨🏻‍💻 Data Scientist  | 🤖 ML Engineer**")
 
-    # Display social media icons
+    # Display social media icons    
     st.markdown("""
         <a href='https://www.linkedin.com/in/krishna-vamsi-rokkam/'>
         <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn Profile" style="width:42px;height:42px;">
@@ -146,6 +146,87 @@ st.write("""
 - **Predictive Analytics of BMI using CNN** – JMPAS ([DOI: 10.22270/jmpas.V10I6.1656](https://doi.org/10.22270/jmpas.V10I6.1656))
 """)
     
+
+# Function to create a project tile with justified text and buttons
+def create_project_tile(column, image_path, title, description):
+    with column:
+        st.image(image_path, use_column_width=True)
+        st.markdown(
+            f"""
+            <div style="background-color:#1e1e1e; padding:20px; border-radius:10px; color:white;">
+                <h4 style="color:#66b2ff; margin-bottom: 10px;">{title}</h4>
+                <p style="color:#e0e0e0; text-align: justify;">{description}</p>
+            </div>
+            <br>
+            """, unsafe_allow_html=True
+        )
+
+
+# Projects Section
+st.subheader("Projects 💻", anchor=False)
+st.markdown("""
+    <hr style="margin-top: 1px; margin-bottom: 10px; border: 1px solid #ccc;">
+""", unsafe_allow_html=True)
+st.write("\n")
+
+# Creating a 3 by 3 grid for the project tiles
+rows = [st.columns(3) for _ in range(3)]
+
+# First Row
+create_project_tile(rows[0][0], "assets/tts.png", "Transformer based TTS System", 
+    """Implemented and optimized a Transformer-based  TTS model  using  the LJSpeech dataset  and SpeechBrain 
+framework. Enhanced speech synthesis capabilities with scaled positional encodings, teacher forcing, and weighted 
+loss functions, resulting in a Mel Error reduction to 8.27e-02 and a 10% decrease in Stop Error. Enhanced training efficiency and speech quality by utilizing dynamic batching, the Noam Scheduler, and Optimizer 
+Initialization technique, achieving training speeds up to 2.5 times faster than Tacotron2, while improving long-range 
+dependency handling for more natural speech synthesis """)
+
+create_project_tile(rows[0][1], "assets/ds.jpg", "Dialogue Summarization: Fine Tuning LLM using Prompt Engineering and PEFT", 
+    """Explored the FLAN-T5 model from Hugging Face for dialogue summarization. Utilized prompt engineering to refine 
+summary  quality  and  experimented  with  zero/few-shot inference to enhance the model’s in-context  learning  and 
+performance. Fine-tuned the model with the PEFT method – Low Rank Adaptation. Achieved a substantial reduction in model size 
+while  maintaining  competitive  performance,  with  a  17.47%  improvement  in  ROUGE-1  and  8.73%  in  ROUGE-2 
+scores over human baseline summaries """)
+
+create_project_tile(rows[0][2], "assets/retail-and-consumer-goods-mobile.gif", "Automated Retail Product Classification using CNN", 
+    """Developed  and  evaluated  CNN  architectures  (ResNet-18,  GoogleNet,  AlexNet)  for  grocery  product  classification. 
+Tackled challenges such as data imbalance by implementing techniques like class weighting and oversampling, and 
+mitigated vanishing gradients through careful initialization and normalization. Employed grid search for 
+hyperparameter tuning, optimizing learning rates, batch sizes, and dropout rates to enhance model performance. Applied transfer learning by fine-tuning the ResNet-18 model with pre-trained weights on ImageNet. Achieved an 8% 
+improvement in classification accuracy and performed bias analysis to evaluate model performance across different 
+product categories, uncovering insights into model weaknesses and areas for further refinement""")
+
+# Second Row
+create_project_tile(rows[1][0], "assets/wine.jpg", "Modeling Wine Quality using Ensemble Modeling Approach", 
+    """Applied ensemble methods, including Random Forest, Gradient Boosting, AdaBoost, and XGBoost, to predict wine 
+quality  based  on  chemical properties and  expert  evaluations.  Utilized  bagging and  boosting techniques to  enhance 
+model robustness and accuracy. Achieved 89% prediction accuracy, with XGBoost outperforming other models. This approach provided a 
+comprehensive and reliable assessment of wine quality, improving evaluation accuracy and analytical insights""")
+
+create_project_tile(rows[1][1], "assets/digit.gif", "Multi-task Modeling on handwritten digits using Keras", 
+   """Performed simultaneous tasks on grayscale digits: predicting digit value and color. Designed a data generator function that
+generates red, green colour images using the greyscale MNIST images dataset from Keras. Developed a Resnet-style architecture with skip connections for a multi-tasking neural network model. Achieved a
+remarkable 98% accuracy for digit and color recognition using interconnected neural networks""")
+
+create_project_tile(rows[1][2], "assets/skin.png", "Skin Disease Identification using Image Analysis", 
+    """Developed a Convolutional Neural Network (CNN) classification model for real-time skin disease detection, integrating 
+OpenCV  for  efficient  image  preprocessing  and  feature  extraction.  Designed  a  custom  PyTorch  pipeline  with  image 
+augmentation  (rotation,  scaling),  normalization,  and  histogram  equalization,  enhancing  model  generalization  and 
+reducing overfitting. Applied  Batch  Normalization  and  Dropout  to  enhance  training  stability  and  prevent 
+overfitting. Leveraged  transfer  learning  by  fine-tuning  the  ResNet-50  model,  reducing  training  time  by  22%  and  improving 
+accuracy by 4%. Deployed the model using Flask, with RESTful APIs for real-time image analysis and asynchronous 
+processing to manage high user traffic, resulting in a scalable and responsive web application""")
+
+# # Third Row
+# create_project_tile(rows[2][0], "assets/menu.gif", "Projectd Title", 
+#     "Project description goes here. This is where you briefly describe the project and your contributions.")
+
+# create_project_tile(rows[2][1], "assets/menu.gif", "Projecst Title", 
+#     "Project description goes here. This is where you briefly describe the project and your contributions.")
+
+# create_project_tile(rows[2][2], "assets/menu.gif", "Projesvct Title", 
+#     "Project description goes here. This is where you briefly describe the project and your contributions.")
+
+st.write("\n")
 
 # Certifications
 st.subheader("Certifications 📜", anchor=False)
